@@ -1,0 +1,20 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# AI 모델 관련 (용량이 커서 직접 올리지 않음)
+models/
+*.bin
+*.pth
+*.onnx
+
+# 환경 변수 및 키
+.env
+*.pem
+
+# Docker 관련
+.docker/
